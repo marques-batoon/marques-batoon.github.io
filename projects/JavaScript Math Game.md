@@ -16,12 +16,15 @@ summary: "A Web Application made with JavaScript. High scores are recorded and d
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/math-marques.png" class="img-thumbnail" >
+  <!-- <img width="200px" src="../img/math-marques.png" class="img-thumbnail" > -->
+  <img class="img-fluid" src="../img/math-marques.png>
 </div>
 
-A Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
+This is the first Web Application I created that used JavaScript to change HTML and CSS to make a dynamic website.
 
-Here is some code that illustrates how we read values from the line sensors:
+It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
+
+Here is the code.
 
 ```js
 // vvv countdown function vvv
