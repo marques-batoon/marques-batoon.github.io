@@ -93,6 +93,48 @@
     }
   ],
   "awards": [
+    {
+      "title": "N3 Japanese Level Certificate",
+      "date": "2023",
+      "awarder": "Japanese Language Proficiency Test",
+      "summary": "The Japanese-Language Proficiency Test, or JLPT, is a standardized criterion-referenced test to evaluate and certify Japanese language proficiency for non-native speakers, covering language knowledge, reading ability, and listening ability."
+    },
+    {
+      "title": "HTML CSS Development",
+      "date": "2020",
+      "awarder": "Altcademy",
+      "summary": "Learn to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
+    },
+    {
+      "title": "JavaScript Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Understand the prototypical structure of JavaScript and the relationships between its objects. Learn to build objects with Constructors and the /"this/" variable. Complete over one hundred JavaScript scripting exercises and build two text-based game projects to finish the course."
+    },
+    {
+      "title": "Dynamic Website Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn to dynamically retrieve data from external APIs using Ajax. Build interactive web apps with persistent data stored on server."
+    },
+    {
+      "title": "ReactJS Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn how to add React capability to existing projects. Learn to write React JSX. How to preprocess React JSX locally with NodeJS. Learn to compose React custom components and build reusable templates. Learn how to create a React single page app using Create React App. Learn to run a NodeJS server locally, install and use third party JavaScript NPM library in React projects. And deploy React projects live."
+    },
+    {
+      "title": "Ruby Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn to write reusable programs with native methods that come bundled with Ruby to write less code and achieve the same outcome. Understand Object Oriented Programming and learn to use Classes, Instances, inheritance and attributes to write advanced Ruby programs."
+    },
+    {
+      "title": "Ruby on Rails Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn the crucial Model View Controller (MVC) structure that is being used in most applications. Create a simple restful API with multiple routes. Create new Models with migrations, add validations to Models, and interact with your database using Active Record. Add more functionality to your application with third party libraries such as mailer and photo upload."
+    }
   ],
   "references": [
     {
