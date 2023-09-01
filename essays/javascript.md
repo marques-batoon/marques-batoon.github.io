@@ -11,8 +11,6 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript.jpeg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
 My first experience with JavaScript was through a Full-Stack Web Development course in a coding bootcamp—and since then it was love at first sight, and all personal projects I’ve worked on since then have been in JavaScript. Learning about the funny origin and flexibility of JavaScript has made JavaScript my favorite programming language to work with.
 
 ## JavaScript Origins
