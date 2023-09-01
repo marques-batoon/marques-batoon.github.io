@@ -54,27 +54,26 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "The Breakers Hotel",
+      "position": "IT Specialist and Web Developer",
+      "website": "https://www.breakers-hawaii.com/",
+      "startDate": "2019-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Head of IT at The Breakers Hotel.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Update website to be mobile responsive",
+        "Translate incoming and outgoing emails from Japanese guest"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "International Structural Engineering and Construction",
+      "position": "Software Engineer",
+      "website": "https://www.isec-society.org/isec_press.php",
+      "startDate": "2022-12-01",
+      "endDate": "2023-05-15",
+      "summary": "Managed Front-end and Back-end edits for the website.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Manage website Front-end and Backk-end with PHP and SQL"
       ]
     }
   ],
