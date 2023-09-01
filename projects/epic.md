@@ -15,7 +15,7 @@ labels:
 summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
 <div class="text-center p-4">
-  <img width="600px" class="thumbnail" src="../img/EPIC.jpeg">
+  <img width="600px" class="img-thumbnail" src="../img/EPIC.jpeg">
 </div>
 
 I was accepted as a summer intern to work at the Ehime Prefectural International Center in Ehime, Japan for three months. During the three months as an intern one of the tasks I was given was to host and present lectures and speeches in Japanese at several high schools, universities, events, and community centers.
