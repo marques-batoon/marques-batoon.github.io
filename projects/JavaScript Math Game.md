@@ -17,7 +17,7 @@ summary: "A Web Application made with JavaScript. High scores are recorded and d
 
 <div class="text-center p-4">
   <!-- <img width="200px" src="../img/math-marques.png" class="img-thumbnail" > -->
-  <img width="800px" class="img-fluid" src="../img/math-marques.png">
+  <img width="800px" class="img-thumbnail" src="../img/math-marques.png">
 </div>
 
 This is the first Web Application I created that used JavaScript to change HTML and CSS to make a dynamic website.
