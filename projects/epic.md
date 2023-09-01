@@ -9,6 +9,8 @@ labels:
   - Japanese-language
   - Lecture
   - Japan
+  - Public Speaking
+  - Speech
 
 summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
