@@ -25,11 +25,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "PHP", "Ruby", "Ruby on Rails" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Japanese Language",
+      "keywords": [ "Japanese speaking", "Japanese writing", "JLPT N2", "Japanese reading", "Business Japanese" ]
     }
   ],
   "education": [
