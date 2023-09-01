@@ -17,6 +17,7 @@
   },
   "interests": [
     { "name": "Software Engineering" },
+    { "name": "Web Development" },
     { "name": "Mathematics" },
     { "name": "Japanese Language" },
     { "name": "Travel" },
@@ -25,7 +26,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "PHP", "Ruby", "Ruby on Rails" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "ReactJS", "PHP", "Ruby", "Ruby on Rails" ]
     },
     {
       "name": "Japanese Language",
@@ -50,21 +51,23 @@
       "website": "https://www.breakers-hawaii.com/",
       "startDate": "2019-08-01",
       "endDate": "Present",
-      "summary": "Head of IT at The Breakers Hotel.",
+      "summary": "Head of IT at The Breakers Hotel. Located in Waikiki, The Breakers Hotel is owned by Urasenke International. Yearly Urasenke Hawaii Seminars are hosted where participants fly from Japan to Hawaii together in celebration of Chado.",
       "highlights": [
-        "Update website to be mobile responsive",
-        "Translate incoming and outgoing emails from Japanese guest"
+        "Updated website to be mobile responsive",
+        "Translate incoming and outgoing email correspondence from Japanese guests",
+        "Manage Hotel Reservations System"
       ]
     },
     {
       "company": "International Structural Engineering and Construction",
       "position": "IT Specialist and Web Developer (Independen Contractor)",
       "website": "https://isec-society.org/index.php",
-      "startDate": "2022-12-01",
-      "endDate": "2023-05-15",
-      "summary": "Managed Front-end and Back-end edits for the website.",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Handled website's Front-end and Back-end edits. ISEC Society is a non-profit organization dedicated to benefitting the professional engineering community through international educational conferences, seminars, and literature. ",
       "highlights": [
-        "Manage website Front-end and Back-end with PHP and SQL. Answered IT related questions and fixed any issues related to website's user database. "
+        "Website's Front-end and Back-end edits in PHP and SQL.",
+        "Answered IT related questions and fixed any issues related to website's user database. "
       ]
     }
   ],
@@ -86,12 +89,6 @@
       "date": "2023",
       "awarder": "Japanese Language Proficiency Test",
       "summary": "The Japanese-Language Proficiency Test, or JLPT, is a standardized criterion-referenced test to evaluate and certify Japanese language proficiency for non-native speakers, covering language knowledge, reading ability, and listening ability."
-    },
-    {
-      "title": "HTML CSS Development",
-      "date": "2020",
-      "awarder": "Altcademy",
-      "summary": "Learn to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
     },
     {
       "title": "JavaScript Programming Certificate",
@@ -122,6 +119,12 @@
       "date": "2021",
       "awarder": "Altcademy",
       "summary": "Learn the crucial Model View Controller (MVC) structure that is being used in most applications. Create a simple restful API with multiple routes. Create new Models with migrations, add validations to Models, and interact with your database using Active Record. Add more functionality to your application with third party libraries such as mailer and photo upload."
+    },
+    {
+      "title": "HTML CSS Development",
+      "date": "2020",
+      "awarder": "Altcademy",
+      "summary": "Learn to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
     }
     
   ],
