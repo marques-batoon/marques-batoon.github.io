@@ -16,9 +16,7 @@ summary: "A Web Application made with JavaScript. High scores are recorded and d
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/math-marques.png" class="img-thumbnail" >
 </div>
 
 A Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
