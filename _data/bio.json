@@ -104,7 +104,20 @@
       "date": "2020",
       "awarder": "Altcademy",
       "summary": "Learn to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
-    }
+    },
+    {
+      "title": "JavaScript Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Understand the prototypical structure of JavaScript and the relationships between its objects. Learn to build objects with Constructors and the 'this' variable. Complete over one hundred JavaScript scripting exercises and build two text-based game projects to finish the course."
+    },
+    {
+      "title": "Dynamic Website Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn to dynamically retrieve data from external APIs using Ajax. Build interactive web apps with persistent data stored on server."
+    },
+    
   ],
   "references": [
     {
