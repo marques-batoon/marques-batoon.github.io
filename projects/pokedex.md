@@ -28,4 +28,4 @@ This is a simple web app that uses RESTful API for Pokémon data. Also uses open
 
 I also used an open source chartJS to help display the stats of each Pokémon. I tried to challenge myself and gave myself a time limit to see how far I could get creating this in one night.
 
-See the web application here: [Link]([https://marques-pokedex.netlify.app/)
+See the web application here: [Link](https://marques-pokedex.netlify.app/)
