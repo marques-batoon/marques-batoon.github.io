@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Hello there old friend: The flexibility and strength of JavaScript and the importance of keeping a fresh mind during any learning process"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-31
 published: true
