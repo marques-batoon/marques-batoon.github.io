@@ -1,16 +1,16 @@
 ---
 layout: project
 type: project
-image: img/aloha.jpeg
+image: img/ehime-square.jpeg
 title: "Cultural Lectures in Japanese"
-date: 2021
+date: 2023
 published: true
 labels:
   - Japanese-language
   - Lecture
   - Japan
 
-summary: "Simple web app that uses RESTful API for Pokémon data. Also uses open source JavaScript library chartJS"
+summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
 
 This is a simple web app that uses RESTful API for Pokémon data. Also uses open source JavaScript library chartJS. With the accumulated JavaScript and reactJS knowledge I've built up I wanted to make a personal project related to my past favorite video game, Pokémon. I found a [modern RESTful API](https://pokeapi.co/) that contains extensive Pokémon data. 
