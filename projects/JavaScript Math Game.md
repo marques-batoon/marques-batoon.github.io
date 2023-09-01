@@ -24,7 +24,9 @@ This is the first Web Application I created that used JavaScript to change HTML 
 
 It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
 
-Here is the code.
+Challenge yourself and get the high score here!~ [Good luck!](https://arithmetic-marques-batoon.netlify.app/).
+
+Below is a sample of the countdown function used in the app and the live updates made to the HTML.
 
 ```js
 // vvv countdown function vvv
@@ -47,7 +49,7 @@ var timerStart = function() {
         if(currentScore > globalHighScore){
             addScore(currentScore);
             $('small').html('Nice Job!');
-            alert("Congratluations on getting the new high score!");
+            alert("Congratluations on getting the new high score!"); 
             $('#tanuki').attr("src", "./pics/chouureshii.png");
             $('#goodluck').attr("src", "./pics/nice.png");
         }
@@ -78,5 +80,3 @@ var timerStart = function() {
     $('#countdown').html(timeleft + ' seconds left');
 }
 ```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
