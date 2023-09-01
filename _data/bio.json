@@ -79,16 +79,13 @@
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Japanese Culture Club at UH Manoa",
+      "website": "https://uhmjcc.weebly.com/",
+      "position": "Vice President",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "summary": "I plan and host club events as well as hold meetings with other club members to discuss social media presence, activities outside of school, and promoting Japanese culture",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
