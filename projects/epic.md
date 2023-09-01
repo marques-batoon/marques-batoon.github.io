@@ -27,7 +27,7 @@ I was accepted as a summer intern to work at the Ehime Prefectural International
 On middle and high school visits my partner, Melody, and I would typically keep the topics generally simple such as introucing Hawaiian words and our recommended locations to visit. The Japanese students were always very energetic.
 
 <div class="text-center p-4">
-  <img class="img-fluid" src="../img/uwajima-hawaii.png">
+  <img class="img-thumbnail" src="../img/uwajima_hawaii.png">
 </div>
 
 I also used an open source chartJS to help display the stats of each Pokémon. I tried to challenge myself and gave myself a time limit to see how far I could get creating this in one night.
