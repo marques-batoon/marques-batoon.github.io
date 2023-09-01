@@ -20,7 +20,7 @@ summary: "A Web Application made with JavaScript. High scores are recorded and d
   <img width="800px" class="img-thumbnail" src="../img/math-marques.png">
 </div>
 
-This is the first Web Application I created that used JavaScript to change HTML and CSS to make a dynamic website.
+This is the first dynamic website web application I created using JavaScript making dynamic HTML and CSS.
 
 It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
 
