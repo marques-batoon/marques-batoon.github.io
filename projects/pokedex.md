@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/math-marques.png
+image: img/pokeIcon.png
 title: "Pokémon Encyclopedia"
 date: 2021
 published: true
