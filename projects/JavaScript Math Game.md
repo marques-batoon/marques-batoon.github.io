@@ -12,7 +12,7 @@ labels:
   - Bootstrap
   - RESTful API 
 
-summary: "A Web Application game made with JavaScript where the user needs to input the correct answer to an arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API."
+summary: "A Web Application game made with JavaScript where the user needs to input the correct answer to arithmetic equations under a certain time. High scores are recorded and displayed using RESTful API."
 ---
 
 <div class="text-center p-4">
