@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Marques Batoon",
     "label": "Student",
     "picture": "https://github.com/marquesadilla.png",
     "email": "marquesb@hawaii.edu",
@@ -16,20 +16,20 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Software Engineering" },
+    { "name": "Mathematics" },
+    { "name": "Japanese Language" },
+    { "name": "Travel" },
+    { "name": "Hiking" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "PHP", "Ruby", "Ruby on Rails" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Japanese Language",
+      "keywords": [ "Japanese speaking", "Japanese writing", "JLPT N2", "Japanese reading", "Business Japanese" ]
     }
   ],
   "education": [
@@ -54,27 +54,26 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "The Breakers Hotel",
+      "position": "IT Specialist and Web Developer",
+      "website": "https://www.breakers-hawaii.com/",
+      "startDate": "2019-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Head of IT at The Breakers Hotel.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Update website to be mobile responsive",
+        "Translate incoming and outgoing emails from Japanese guest"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "International Structural Engineering and Construction",
+      "position": "Software Engineer",
+      "website": "https://www.isec-society.org/isec_press.php",
+      "startDate": "2022-12-01",
+      "endDate": "2023-05-15",
+      "summary": "Managed Front-end and Back-end edits for the website.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Manage website Front-end and Backk-end with PHP and SQL"
       ]
     }
   ],
@@ -92,31 +91,58 @@
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Japanese Culture Club at UH Manoa",
+      "website": "https://uhmjcc.weebly.com/",
+      "position": "Vice President",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "summary": "I plan and host club events as well as hold meetings with other club members to discuss social media presence, activities outside of school, and promoting Japanese culture",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "N3 Japanese Level Certificate",
+      "date": "2023",
+      "awarder": "Japanese Language Proficiency Test",
+      "summary": "The Japanese-Language Proficiency Test, or JLPT, is a standardized criterion-referenced test to evaluate and certify Japanese language proficiency for non-native speakers, covering language knowledge, reading ability, and listening ability."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "HTML CSS Development",
+      "date": "2020",
+      "awarder": "Altcademy",
+      "summary": "Learn to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
+    },
+    {
+      "title": "JavaScript Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Understand the prototypical structure of JavaScript and the relationships between its objects. Learn to build objects with Constructors and the "this" variable. Complete over one hundred JavaScript scripting exercises and build two text-based game projects to finish the course."
+    },
+    {
+      "title": "Dynamic Website Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn to dynamically retrieve data from external APIs using Ajax. Build interactive web apps with persistent data stored on server."
+    },
+    {
+      "title": "ReactJS Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn how to add React capability to existing projects. Learn to write React JSX. How to preprocess React JSX locally with NodeJS. Learn to compose React custom components and build reusable templates. Learn how to create a React single page app using Create React App. Learn to run a NodeJS server locally, install and use third party JavaScript NPM library in React projects. And deploy React projects live."
+    },
+    {
+      "title": "Ruby Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn to write reusable programs with native methods that come bundled with Ruby to write less code and achieve the same outcome. Understand Object Oriented Programming and learn to use Classes, Instances, inheritance and attributes to write advanced Ruby programs."
+    },
+    {
+      "title": "Ruby on Rails Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learn the crucial Model View Controller (MVC) structure that is being used in most applications. Create a simple restful API with multiple routes. Create new Models with migrations, add validations to Models, and interact with your database using Active Record. Add more functionality to your application with third party libraries such as mailer and photo upload."
     }
   ],
   "references": [
