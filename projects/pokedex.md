@@ -31,3 +31,32 @@ See the web application here: [Link](https://marques-pokedex.netlify.app/)
   <img width="250px" src="../img/Poke1.png">
   <img width="250px" src="../img/Poke5png.png">
 </div>
+
+Below is the fetch request code that stores information from the API to be used with the open source chartJS
+
+```js
+getMon = () => {
+        fetch(`https://pokeapi.co/api/v2/pokemon/${this.state.name}`)
+        .then(checkStatus)
+        .then(json)
+        .then(data => {
+            if(data.error) {
+                throw new Error(data.error);
+            }
+            // artwork
+            this.setState({ imgLink: data.sprites.other["official-artwork"]["front_default"] });
+
+            // stats for chart
+            this.buildChart(["HP", "ATK", "DEF", "SpATK", "SpDEF", "SPD"], [data.stats[0].base_stat, data.stats[1].base_stat, data.stats[2].base_stat, data.stats[3].base_stat, data.stats[4].base_stat, data.stats[5].base_stat], "Base Stats");
+
+            // pokeNum
+            const mon0 = data.species.url;
+            const pokeNum = mon0.substring(mon0.lastIndexOf("species") + 8, mon0.lastIndexOf("/"));
+            this.setState({ pokeNum });
+            this.toNext(1 + parseInt(pokeNum));
+            this.toPrev(parseInt(pokeNum) - 1);
+
+        })
+        .catch(error => console.log(error.message));
+    }
+```
