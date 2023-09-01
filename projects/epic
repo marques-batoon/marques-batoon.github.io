@@ -4,7 +4,7 @@ type: project
 image: img/aloha.jpeg
 title: "Cultural Lectures in Japanese"
 date: 2021
-published: true
+published: false
 labels:
   - Japanese-language
   - Lecture
