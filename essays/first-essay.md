@@ -7,6 +7,9 @@ date: 2023-08-28
 published: true
 labels:
   - Programming
+  - Japanese-language
+  - Exercise
+  - Self-help
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/me.JPG">
