@@ -24,23 +24,22 @@ I was accepted as a summer intern to work at the Ehime Prefectural International
   <img width="800px" class="img-thumbnail" src="../img/hajime.jpeg">
 </div>
 
-On middle and high school visits my partner, Melody, and I would typically keep the topics generally simple such as introucing Hawaiian words and our recommended locations in Hawaii to visit. The Japanese students were always very energetic.
+On middle and high school visits my partner, Melody, and I would typically keep the topics generally simple such as introucing Hawaiian words and our recommended locations in Hawaii to visit. The earnest Japanese students were always very energetic.
 
 <div class="text-center p-4">
   <img width="800px" class="img-thumbnail" src="../img/school.jpeg">
 </div>
 
-On visits to universities or community centers our topics were more challenging to match the audience. Several topics we talked about were Hawaii's history and relations with Japan and sister cities/states,
+On visits to universities or community centers our topics were more challenging to match the audience. Several topics we talked about were Hawaii's history and relations with Japan and sister cities/states, 
 
 <div class="text-center p-4">
-  <img width="800px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
+  <img width="400px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
+  <img width="400px" class="img-thumbnail" src="../img/ehime.jpeg">
 </div>
 
-<div class="text-center p-4">
-  <img width="800px" class="img-thumbnail" src="../img/ehime.jpeg">
-</div>
+Some locations where we were asked to host events/lectures asked us to create a flyer as well. Below is an example of one of the flyers we created for these lectures:
 
 <div class="text-center p-4">
-  <img width="800px" class="img-thumbnail" src="../img/ehime.jpeg">
+  <img width="800px" class="img-fluid" src="../img/ハワイ文化ショーケース＿松山国際交流センター.jpg">
 </div>
 
