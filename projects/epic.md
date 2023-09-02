@@ -7,10 +7,10 @@ date: 2023
 published: true
 labels:
   - Japanese-language
-  - Lecture
-  - Japan
   - Public Speaking
+  - Lecture
   - Speech
+  - Japan
 
 summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
