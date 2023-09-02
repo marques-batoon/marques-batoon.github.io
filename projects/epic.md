@@ -16,21 +16,19 @@ summary: "Hosted and presented lectures and speeches in Japanese at schools and 
 ---
 <div class="text-center p-4">
   <img width="800px" class="img-thumbnail" src="../img/EPIC.jpeg">
+  <img width="800px" class="img-thumbnail" src="../img/hajime.jpeg">
 </div>
 
 I was accepted as a summer intern to work at the Ehime Prefectural International Center in Ehime, Japan for three months. During my three months working in Japan, one of the tasks I was given was to plan, host and present many lectures and speeches in Japanese at several high schools, universities, events, and community centers.
 
 <div class="text-center p-4">
-  <img width="800px" class="img-thumbnail" src="../img/hajime.jpeg">
+  <img width="800px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
 </div>
 
 On middle and high school visits my partner, Melody, and I would typically keep the topics generally simple such as introucing Hawaiian words and our recommended locations in Hawaii to visit. The Japanese students were always very energetic.
 
 <div class="text-center p-4">
   <img width="800px" class="img-thumbnail" src="../img/ehime.jpeg">
-</div>
-<div class="text-center p-4">
-  <img width="800px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
 </div>
 
 On visits to universities or community centers our topics were more challenging to match the audience. Several topics we talked about were Hawaii's history and relations with Japan and sister cities/states,
