@@ -34,7 +34,7 @@ On visits to universities or community centers our topics were more challenging 
 
 <div class="text-center p-4">
   <img width="400px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
-  <img width="400px" class="img-thumbnail" src="../img/ehime.jpeg">
+  <img width="400px" class="img-thumbnail" src="../img/ehime-crop.jpg">
 </div>
 
 Some locations where we were asked to host events/lectures asked us to create a flyer as well. Below is an example of one of the flyers we created for these lectures:
