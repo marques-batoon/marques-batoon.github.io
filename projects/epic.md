@@ -30,7 +30,7 @@ On middle and high school visits my partner, Melody, and I would typically keep 
   <img width="600px" class="img-thumbnail" src="../img/school.jpeg">
 </div>
 
-On visits to universities or community centers our topics were more challenging to match the audience. Several topics we talked about were Hawaii's history and relations with Japan and sister cities/states, 
+On visits to universities or community centers our topics were more challenging to match the audience. Several topics we talked about were Hawaii's history and relations with Japan and sister cities/states, environmental issues in Hawaii, and food history. We also helped introduce a special festival that celebrated the sister city relationship between Hawaii and Uwajima by giving a speech in Japanese welcoming and thanking everyone for inviting us to the wonderful event.
 
 <div class="text-center p-4">
   <img width="400px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
