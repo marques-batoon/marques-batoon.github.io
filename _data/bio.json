@@ -85,6 +85,12 @@
   ],
   "awards": [
     {
+      "title": "VLDB Scholarship",
+      "date": "2023",
+      "awarder": "Very Large Data Base Endowment Inc. (VLDB Endowment)",
+      "summary": "The VLDB Endowment is a non-profit organization incorporated in the United States for the sole purpose of promoting and exchanging scholarly work in databases and related fields throughout the world."
+    },
+    {
       "title": "N3 Japanese Level Certificate",
       "date": "2023",
       "awarder": "Japanese Language Proficiency Test",
