@@ -15,19 +15,19 @@ labels:
 summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
 <div class="text-center p-4">
-  <img class="img-thumbnail" src="../img/EPIC.jpeg">
+  <img width="800px" class="img-thumbnail" src="../img/EPIC.jpeg">
 </div>
 
 I was accepted as a summer intern to work at the Ehime Prefectural International Center in Ehime, Japan for three months. During the three months working in Japan, one of the tasks I was given was to plan, host and present many lectures and speeches in Japanese at several high schools, universities, events, and community centers.
 
 <div class="text-center p-4">
-  <img class="img-fluid" src="../img/hajime.jpeg">
+  <img width="800px" class="img-thumbnail" src="../img/hajime.jpeg">
 </div>
 
 On middle and high school visits my partner, Melody, and I would typically keep the topics generally simple such as introucing Hawaiian words and our recommended locations to visit. The Japanese students were always very energetic.
 
 <div class="text-center p-4">
-  <img class="img-thumbnail" src="../img/uwajima_hawaii.png">
+  <img width="800px" class="img-thumbnail" src="../img/uwajima_hawaii.png">
 </div>
 
 I also used an open source chartJS to help display the stats of each Pokémon. I tried to challenge myself and gave myself a time limit to see how far I could get creating this in one night.
