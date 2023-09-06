@@ -12,7 +12,7 @@ labels:
   - Speech
   - Japan
 
-summary: "Hosted and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
+summary: "Hosted, planned, and presented lectures and speeches in Japanese at schools and events in Ehime, Japan"
 ---
 <div class="text-center p-4">
   <img width="600px" class="img-thumbnail" src="../img/EPIC.jpeg">
