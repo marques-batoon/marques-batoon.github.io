@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/ehime-square.jpeg
-title: "Cultural Lectures in Japanese"
+title: "Cultural Lectures and Speeches in Japanese"
 date: 2023
 published: true
 labels:
