@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Pursue what you Love and Enjoy"
+title: "Putting in the work before asking questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-06
 published: true
