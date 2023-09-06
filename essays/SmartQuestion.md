@@ -16,7 +16,7 @@ What does it mean to ask a smart question? What does it mean to ask a stupid que
 
 ## Smart Questions
 
-I studied Japanese in high school but nothing much came out of it after graduating. I decided to revisit the language and earnestly studied to take the world-wide Japanese Language Proficiency Test which many jobs use to scale workers in hiring processes. My studies started with free YouTube videos but soon I began to look for more help making connections with online tutors who live in Japan. My studies expanded and the yearning for more knowledge grew and for the first time in my life I was actually excited to buy *textbooks*. I bought hundreds of dollars worth of textbooks and studied everyday. My studies ultimately accumulated in me passing the JLPT N3 level a few months ago. I'm currently studying for the next level JLPT N2.
+In his essay, Eric Raymond provides [excellent guidelines](http://www.catb.org/esr/faqs/smart-questions.html) for effective communication styles when asking for help.
 [Link to Smart Question](https://stackoverflow.com/questions/44374219/what-the-different-between-reactelement-and-reactelement)
 
 ## Stupid Ways of Asking
