@@ -12,7 +12,7 @@ labels:
 
 <!-- <img width="450px" class="rounded float-start pe-4" src="../img/no-stupid-questions.png"> -->
 <div class="text-center p-4">
-  <img class="img-fluid" src="../img/no-stupid-questions.png">
+  <img width="600px" class="img-fluid" src="../img/no-stupid-questions.png">
 </div>
 
 
