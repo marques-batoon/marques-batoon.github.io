@@ -24,7 +24,9 @@ This is the first dynamic website web application I created using JavaScript mak
 
 It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
 
-My goal of this web application was to practice and solidify everything I've just learned about HTML, CSS, and JavaScript. Math has always been my favorite class since I was a kid so I decided to make this arithmetic game. I made sure to display everything to the user in an easy-to-understand fashion that's easy on the eyes using my own as well as bootstrap styling. Before this project I had learned how to write to and read from restFUL API by making a to-do-list. Learning from this I wanted to implement that into this web application and did so by implementing a high score section that saves for users that score over 10 points. Each arithmetic option holds its own list of high scores.
+My goal of this web application was to practice and solidify everything I've just learned about HTML, CSS, and JavaScript. Math has always been my favorite class since I was a kid so I decided to make this arithmetic game. I made sure to display everything to the user in an easy-to-understand fashion that's easy on the eyes using my own as well as bootstrap styling. 
+
+Before this project I had learned how to write to and read from restFUL API by making a to-do-list. Learning from this I wanted to implement that into this web application and did so by implementing a high score section that saves for users that score over 10 points. Each arithmetic option holds its own list of high scores. Using JavaScript methods I also implemented different images with varying messagees depending on what score the user had just completed.
 
 Try the app here: [Good luck. Hope to see you on the leaderboards!](https://arithmetic-marques-batoon.netlify.app/)
 
