@@ -10,13 +10,12 @@ labels:
   - Smart Questions
 ---
 
+What does it mean to ask a smart question? What does it mean to ask a stupid question? Nobody's perfect when it comes to programming, or anything in life. We're always learning and we should have that mindset. Having said that, throughout our learning processes we're all going to be stumped at some point. There will be times we reach a wall blocking us from progressing. At those times you'll have (hopefully) exhausted all of your resources that you have access to on your own and have decided: I. Need. Help. There's nothing wrong with asking for help. After all, you're not expected to have all of the answers. But in order to get the answers you need, it's important to do everything in your power to help the person helping you. The best way to do that is to ask smart questions.
+
 <!-- <img width="450px" class="rounded float-start pe-4" src="../img/no-stupid-questions.png"> -->
 <div class="text-center p-4">
   <img width="600px" class="img-thumbnail" src="../img/no-stupid-questions.png">
 </div>
-
-
-What does it mean to ask a smart question? What does it mean to ask a stupid question? Nobody's perfect when it comes to programming, or anything in life. We're always learning and we should have that mindset. Having said that, throughout our learning processes we're all going to be stumped at some point. There will be times we reach a wall blocking us from progressing. At those times you'll have (hopefully) exhausted all of your resources that you have access to on your own and have decided: I. Need. Help. There's nothing wrong with asking for help. After all, you're not expected to have all of the answers. But in order to get the answers you need, it's important to do everything in your power to help the person helping you. The best way to do that is to ask smart questions.
 
 ## Smart Questions
 
