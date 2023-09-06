@@ -20,7 +20,7 @@ In his essay, Eric Raymond provides [excellent guidelines](http://www.catb.org/e
 After exhausting all options and finding nothing, make sure you include that in your question. "According to this article by so-and-so they instructed me to do this but that yielded no results," Or "this forum I found seemed promising but after reading through it I found nothing related to my issue at hand."
 A question asked by Alexander on StackOverflow showed signs of their own efforts and an excellent use of their own time and resources that were implemented before asking the question. Alexander asks wabout the difference between React$Element and ReactElement and using flow with ReactJS. They bring up an article that they looked into that yielded no results. They also include the many examples they found with links but the error still shows up. After showing specifically what error shows up, they include possible solutions that they tried and what actually worked. They ended up finding a solution using React$Element instead of ReactElement. They then asked why this worked and where they could find information about React$Element.
 Alexander does a great job in asking specific questions and offering what they already know. They also show a want to learn about the issue at hand by asking for more resources that could help.
-[Link to Alexander's Question](https://stackoverflow.com/questions/44374219/what-the-different-between-reactelement-and-reactelement)
+[Link to Alexander's Question](https://stackoverflow.com/questions/44374219/what-the-different-between-reactelement-and-reactelement).
 
 ## Stupid Ways of Asking
 
@@ -28,4 +28,4 @@ I learned how to program in Java and started creating very simple java programs 
 
 I absolutely enjoyed my time at the coding boot camp. I learned so much from my mentors and within a few short months I was creating my own web applications. Many of my early web applications were Japanese study apps that I created to simultaneously practice both of my newly found passions.
 
-You can see some of my early web apps on my [Projects page](https://marques-batoon.github.io/#projects)
+[Link to bob george's question](https://stackoverflow.com/questions/29724350/how-do-i-add-characters-in-print-statement).
