@@ -8,7 +8,7 @@ published: false
 labels:
   - JavaScript
 ---
-
+<!-- https://softwareengineering.stackexchange.com/questions/165763/is-a-coding-standard-even-needed-any-more -->
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript.jpeg">
 
 My first experience with JavaScript was through a Full-Stack Web Development course in a coding bootcamp—and since then it was love at first sight, and all personal projects I’ve worked on since then have been in JavaScript. Learning about the funny origin and flexibility of JavaScript has made JavaScript my favorite programming language to work with.
