@@ -4,7 +4,7 @@ type: essay
 title: "CODING STANDARDS ***"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-31
-published: false
+published: true
 labels:
   - JavaScript
 ---
