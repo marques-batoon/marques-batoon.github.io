@@ -14,7 +14,7 @@ Coding standards aren't as emphasized in teachings for newly budding coders. How
 
 ## What are coding standards?
 
-Codings tandards are rules and guidelines set up to follow. These guidelines can include naming styles, use of special words, line count restrictions, etc. The goal of coding standards is to set up cleaner coding. These rules aren't concrete and can vary depending on the project at hand or the group you're working with. 
+Coding standards are rules and guidelines set up to follow. These guidelines can include naming styles, use of special words, line count restrictions, etc. The goal of coding standards is to set up cleaner coding. These rules aren't concrete and can vary depending on the project at hand or the group you're working with. 
 
 
 ## Why we follow coding standards
