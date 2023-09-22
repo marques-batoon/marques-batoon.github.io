@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "CODING STANDARDS ***"
 # All dates must be YYYY-MM-DD format!
-date: 2023-08-31
+date: 2023-09-21
 published: true
 labels:
   - JavaScript
@@ -11,24 +11,23 @@ labels:
 <!-- https://softwareengineering.stackexchange.com/questions/165763/is-a-coding-standard-even-needed-any-more -->
 <img width="200px" class="rounded float-start pe-4" src="../img/codingStandardsWhatever.png">
 
-My first experience with JavaScript was through a Full-Stack Web Development course in a coding bootcamp—and since then it was love at first sight, and all personal projects I’ve worked on since then have been in JavaScript. Learning about the funny origin and flexibility of JavaScript has made JavaScript my favorite programming language to work with.
+Coding standards aren't as emphasized in teachings for newly budding coders. However, starting as early as possible and building strong coding practices can help save lots of time and efficiency in young coders' careers down the line. My experience with ESLint with IntelliJ has saved me lots of time when rereading written code and understanding colleague's work.
 
-## JavaScript Origins
+## What are coding standards?
 
-In the coding bootcamp we cover full-stack development with HTML, CSS, JavaScript, React, Ruby and Rails, Computer Science fundamentals, and programming skills. In the bootcamp I learned that JavaScript’s name was chosen as a way to ride on the success of Java at the time. I found it extremely hilarious that JavaScript has absolutely nothing to do with the Java programming language. 
-
-As a child I learned very basic HTML and heavily enjoyed making and editing simple web pages. So, as a young avid HTML fan, learning JavaScript which was made as a ‘glue’ to HTML so web designers could easily assemble components such as images and plugins. Being able to use JavaScript to make HTML and CSS pages dynamic was very attractive to me.
+Codings tandards are rules and guidelines set up to follow. These guidelines can include naming styles, use of special words, line count restrictions, etc. The goal of coding standards is to set up cleaner coding. These rules aren't concrete and can vary depending on the project at hand or the group you're working with. 
 
 
-## Accessible, Flexible, and Friendly
+## Why we follow coding standards
 
-JavaScript is the language that can produce apps accessible to everyone and isn’t limited by what device a user’s using, needing to install an app, or update to the most recent application version. Since JavaScript can be combined with HTML and CSS it is one of the most popular ways of creating web applications. All you need is access to the internet to access web applications. Since it’s hosted on the web, users don’t need to install any app or worry about application versions and you can access the application from computers, mobile platforms, and basically any device that can access the world wide web. 
+The most important reason to follow coding standards is to make your written code readable and easy-to-understand. Having simple and easy-to-read code is important for many reasons. If you're working in a group, it's integral that your groupmates can look at your contributions and easily follow. On the opposite hand, you'd want to be able to quickly look at your partners' code and understand what is being done. Different practices could cause misunderstandings and deciphering code will take up time that could have been used for work---wasting company's time.
 
-With the flexibility and accessibility of JavaScript it’s the programming language of choice I use when creating web applications. I’ve made web applications to aid in my Japanese language studying, games to play for competitions with friends, and many other small utility web applications.
+Coding standards are also important when you're working on an independent project. You want your code to be easy-to-understand because coming back to a project you haven't touched in a large span of time can become unnecessarily more difficult than it has to be when you can't understand your own code. Taking that extra step and extra few moments following your own coding standards can save hours of time down the road.
 
+## Ideal coding standards to follow
 
-## Revisiting the Language
+Now that we understand what coding standards are and why we want to follow them, you can decide which coding standards are perfect for the project at hand. First thing to note when choosing coding standards is the programming language the project is written in. Different languages have different optimal coding practices. 
 
-There's a Japanese concept, *Shoshin*, that derives from Zen Buddhism and translates to “beginner’s mind.” It relates to being open and eager with no preconceptions when studying—even at an advanced level—as if you were learning about a topic from a beginner level. I always aim to enforce this concept everyday as I learn and study deeper into materials I enjoy studying: programming and Japanese language. 
+Rules that will greatly help include rules that help write as little as possible per line of code, use easy-to-understand naming conventions, as little nesting as possible, and having outlines for useful comments that can describe each function of a code, handling exceptions, etc. 
 
-Revisiting JavaScript in a classroom setting I was very excited to learn more about the language I’ve grown to love. While trying to think of Shoshin in mind I try to forget all habits I’ve learned and try to learn and adapt the material taught. I’ve come to learn about the difference with the “var” and “let” keywords and the dangers of accidentally overwriting variables when you use the “var” keyword. I always aim to declare all variables in the beginning of the code to prevent overwriting any variables, so until now I’ve used the “var” keyword when declaring variables in JavaScript. But I’m happy to learn of this important difference and will change my habits for a more efficient coding habit.
+Overall, following guidelines when coding will help you in the long-run whether you're working on an independent project or working in a group.
