@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Why more Efficient Coders implement Coding Standards"
+title: "Final Project"
 # All dates must be YYYY-MM-DD format!
-date: 2023-09-21
+date: 2023-11-01
 published: true
 labels:
   - Coding Standards
 ---
-<img width="200px" class="rounded float-start pe-4" src="../img/codingStandardsWhatever.png">
+<!-- <img width="200px" class="rounded float-start pe-4" src="../img/codingStandardsWhatever.png"> -->
 
 Coding standards aren't as emphasized in teachings for newly budding coders. However, starting as early as possible and building strong coding practices can help save lots of time and efficiency in young coders' careers down the line. My experience with ESLint with IntelliJ has saved me lots of time when rereading written code and understanding colleague's work.
 
