@@ -10,10 +10,12 @@ labels:
 ---
 <!-- <img width="200px" class="rounded float-start pe-4" src="../img/codingStandardsWhatever.png"> -->
 
-Jianele Liu
-Marques Batoon
-Reyn Seki
-Ryder Shintaku
+Jianele Liu, Marques Batoon, Reyn Seki, Ryder Shintaku
+
+## Brainstorm
+
+Integrate Rate my professor into STAR.
+
 
 ## Overview 
 
