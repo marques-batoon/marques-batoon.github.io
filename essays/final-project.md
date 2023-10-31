@@ -22,7 +22,8 @@ Jianele Liu, Marques Batoon, Reyn Seki, Ryder Shintaku
 
 ## Overview 
 
-We plan to 
+The struggles we go through everyday as students at UH campus are endless.
+Problem: Finding a toilet on campus that has a good clean to closeness ratio.
 
 
 ## Mockup page ideas
