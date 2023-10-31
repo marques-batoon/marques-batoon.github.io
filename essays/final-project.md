@@ -10,16 +10,19 @@ labels:
 ---
 <!-- <img width="200px" class="rounded float-start pe-4" src="../img/codingStandardsWhatever.png"> -->
 
+<small>
+Authors:
 Jianele Liu, Marques Batoon, Reyn Seki, Ryder Shintaku
+</small>
 
 ## Brainstorm
 
-Integrate Rate my professor into STAR.
+-Bathroom rater and finding
 
 
 ## Overview 
 
-Coding standards are rules and guidelines set up to follow. These guidelines can include naming styles, use of special words, line count restrictions, etc. The goal of coding standards is to set up cleaner coding. These rules aren't concrete and can vary depending on the project at hand or the group you're working with. 
+We plan to 
 
 
 ## Mockup page ideas
