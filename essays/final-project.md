@@ -15,29 +15,16 @@ Authors:
 Jianele Liu, Marques Batoon, Reyn Seki, Ryder Shintaku
 </small>
 
-## Brainstorm
-
--Bathroom rater and finding
-
 
 ## Overview 
 
-The struggles we go through everyday as students at UH campus are endless.
-Problem: Finding a toilet on campus that has a good clean to closeness ratio.
+Finding a toilet on campus that has a good clean to closeness ratio is always a lone struggle we studdents face each semester. We'd like to make this journey more collaborative by creating a web app social media where students are able to find nearest bathrooms to their location. The app will also allow students to rate a bathroom's cleanliness level and include things that others can be weary of. For example, the quality of soap in the bathroom, number of stalls, business at times of days, or if there are areas designated for users to place their belongings while using the premises.
 
 
 ## Mockup page ideas
 
-The most important reason to follow coding standards is to make your written code readable and easy-to-understand. Having simple and easy-to-read code is important for many reasons. If you're working in a group, it's integral that your groupmates can look at your contributions and easily follow. On the opposite hand, you'd want to be able to quickly look at your partners' code and understand what is being done. Different practices could cause misunderstandings and deciphering code will take up time that could have been used for work---wasting company's time.
-
-Coding standards are also important when you're working on an independent project. You want your code to be easy-to-understand because coming back to a project you haven't touched in a large span of time can become unnecessarily more difficult than it has to be when you can't understand your own code. Taking that extra step and extra few moments following your own coding standards can save hours of time down the road.
 
 ## Use case ideas
 
-Now that we understand what coding standards are and why we want to follow them, you can decide which coding standards are perfect for the project at hand. First thing to note when choosing coding standards is the programming language the project is written in. Different languages have different optimal coding practices. 
-
-Rules that will greatly help include rules that help write as little as possible per line of code, use easy-to-understand naming conventions, as little nesting as possible, and having outlines for useful comments that can describe each function of a code, handling exceptions, etc. 
-
-Overall, following guidelines when coding will help you in the long-run whether you're working on an independent project or working in a group.
 
 ## Beyond the basics
