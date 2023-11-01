@@ -36,4 +36,4 @@ After registering and signing in, users are able to gain access to the following
 It will be necessary to create a database for users and bathroom facilities. Bathrooms will be organized from building to floor and by gender. 
 
 ## Beyond the basics
-Ratings submitted by users will automatically update the database and will be published on the site. Time permitting we'd also like to implement an algorithm to find nearest bathrooms to the user based on location. 
+Ratings submitted by users will automatically update the database and will be published on the site. Time permitting we'd also like to implement an algorithm to find nearest bathrooms to the user based on location and add a schedule feature to each profile
