@@ -28,7 +28,8 @@ The app will also allow students to rate a bathroom's cleanliness level and incl
 After registering and signing in, users are able to gain access to the following content:
 - **Homepage**: A random bathroom of the day will be featured based on user ratings.
 - **Profile**: Each user will have their own profile page which will show their bathroom reviews.
-- 
+- **Bathroom Directory**: A user can find the highest rating bathrooms near their location by choosing a UH Manoa buildling within the directory. Time pending, we will implement an algorithm to find the nearest bathrooms to a user based on their location. Bathroom directories will be organized by building and floor number. If a building or bathroom is not on the directory, users are able to add their own to the database with a submission form which automatically updates database.
+- **Rating Page**: Each bathroom will have a page which shows all ratings and reviews by other students. On this page a user can rate a bathroom and input their own reviews which will automatically be added to the rating page.
 
 ## Use case ideas
 
