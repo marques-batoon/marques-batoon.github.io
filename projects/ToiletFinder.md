@@ -18,7 +18,7 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
 
 <div class="text-center p-4">
   <!-- <img width="120px" src="../img/math-marques.png" class="img-thumbnail" > -->
-  <img width="200px" class="img-thumbnail" src="../img/logo.png">
+  <img width="400px" class="img-thumbnail" src="../img/logo.png">
 </div>
 
 For our final project for ICS 314 we created a Full Stack application for UH Manoa students to find and rate bathrooms on UH campus.
