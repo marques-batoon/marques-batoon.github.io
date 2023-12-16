@@ -84,3 +84,7 @@ const Directory = () => {
 export default Directory;
 
 ```
+<div class="text-center p-4">
+  <!-- <img width="120px" src="../img/math-marques.png" class="img-thumbnail" > -->
+  <img width="800px" class="img-thumbnail" src="../img/DirectoryFinal.png">
+</div>
