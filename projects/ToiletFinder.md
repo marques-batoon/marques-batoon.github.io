@@ -29,7 +29,7 @@ In the beginning of the project I took charge in leading our team in the directi
 
 I learned of the importance in pulling your weight in group projects as well as recognizing when someone can do more and when someone has done more than their share and deserve a break.
 
-See the documentation [here]([https://toilet-titans.github.io/]).
+See the documentation [here](https://toilet-titans.github.io/).
 
 Below is a sample of the first react components coded to pull data from the database.
 
