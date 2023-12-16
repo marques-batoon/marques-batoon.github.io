@@ -17,7 +17,7 @@ My software engineering journey started in 2021 and despite having already learn
 
 ## Coding Standards
 
-Coding standards aren’t as emphasized in teachings for newly budding coders. However, starting as early as possible and building strong coding practices can help save lots of time and efficiency in young coders’ careers down the line. My experience with ESLint with IntelliJ has saved me lots of time when rereading written code and understanding colleague’s work.
+One major important thing I've learned in my ICS 314 class is coding standards. Until now, in my head, as long as the code works then nothing else matters. Also, Coding standards aren’t as emphasized in teachings for newly budding coders. However, starting as early as possible and building strong coding practices can help save lots of time and efficiency in young coders’ careers down the line. My experience with ESLint with IntelliJ has saved me lots of time when rereading written code and understanding colleague’s work.
 
 Coding standards are rules and guidelines set up to follow. These guidelines can include naming styles, use of special words, line count restrictions, etc. The goal of coding standards is to set up cleaner coding. These rules aren’t concrete and can vary depending on the project at hand or the group you’re working with.
 
