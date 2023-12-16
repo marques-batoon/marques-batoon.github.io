@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/math-marques.png
-title: "Arithmetic Game"
+image: img/logo.png
+title: "Toilet Finder"
 date: 2023
 published: true
 labels:
@@ -18,7 +18,7 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
 
 <div class="text-center p-4">
   <!-- <img width="200px" src="../img/math-marques.png" class="img-thumbnail" > -->
-  <img width="800px" class="img-thumbnail" src="../img/math-marques.png">
+  <img width="800px" class="img-thumbnail" src="../img/logo.png">
 </div>
 
 This is the first dynamic website web application I created using JavaScript making dynamic HTML and CSS.
