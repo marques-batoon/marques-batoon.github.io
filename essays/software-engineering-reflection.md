@@ -35,4 +35,6 @@ Overall, following guidelines when coding will help you in the long-run whether 
 
 The possibilities are endless with open source software development. Learning about searching and finding open source software that can be implemented into personal programming projects. I've been working on a personal Japanese application and found many open source software that can be used to save so much time with my own development. 
 
-You can see some of my early web apps on my [Projects page](https://marques-batoon.github.io/#projects)
+My absolute favorite concept of open source software development now is also being able to contribute to projects we are passionate about. Contributing to open source software is a way to expand one's passions as well as develop our own programming skills.
+
+My work with open source software as well as my continous programming journey can be followed here at my [Projects page](https://marques-batoon.github.io/#projects)
