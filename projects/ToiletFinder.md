@@ -17,7 +17,7 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
 ---
 
 <div class="text-center p-4">
-  <!-- <img width="200px" src="../img/math-marques.png" class="img-thumbnail" > -->
+  <!-- <img width="120px" src="../img/math-marques.png" class="img-thumbnail" > -->
   <img width="800px" class="img-thumbnail" src="../img/logo.png">
 </div>
 
