@@ -23,65 +23,64 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
 
 For our final project for ICS 314 we created a Full Stack application for UH Manoa students to find and rate bathrooms on UH campus.
 
-It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
+After registering and signing in, users are able to gain access to the homepage where users learn about the use of the website, the bathroom directory where a user can find the highest rating bathrooms near their location by choosing a UH Manoa buildling within the directory. Bathroom directories will be organized by building and floor number. If a building or bathroom is not on the directory, users are able to add their own to the database with a submission form which automatically updates database on the Add Bathroom Page.
 
-My goal of this web application was to practice and solidify everything I've just learned about HTML, CSS, and JavaScript. Math has always been my favorite class since I was a kid so I decided to make this arithmetic game. I made sure to display everything to the user in an easy-to-understand fashion that's easy on the eyes using my own as well as bootstrap styling. 
+In the beginning of the project I took charge in leading our team in the direction of our application and assigning duties to everyone and ensuring everything was created with our combined vision. I initiated and created the initial file to work off of as well as our GitHub documentation page and our team page. In preparation for Milestone 2 I led a meeting in person to work on the development of our application. I made sure us back-end and front-end were on the same page and that meeting led to the most time-efficient day of our application. I worked with backend in creating the database and worked with front-end in how to change and modernize our app. During milestone 3 due to personal issues I took a backstep to the project but my team were excellent and I'm so grateful they were able to finish the app with my minimal help during these last few weeks.
 
-Before this project I had learned how to write to and read from restFUL API by making a to-do-list. Learning from this I wanted to implement that into this web application and did so by implementing a high score section that saves for users that score over 10 points. Each arithmetic option holds its own list of high scores. Using JavaScript methods I also implemented different images with varying messagees depending on what score the user had just completed.
+I learned of the importance in pulling your weight in group projects as well as recognizing when someone can do more and when someone has done more than their share and deserve a break.
 
 See the documentation [here]([https://toilet-titans.github.io/]).
 
 Below is a sample of the countdown function used in the app and the live updates made to the HTML.
 
 ```js
-// vvv countdown function vvv
-var timeleft = 10;
-var timerStart = function() {
-    $('img').fadeOut("fast");
-    $('button').prop("disabled", true);
-    $('#userAnswer').prop("disabled", false);
-    $('.form-check-input').prop("disabled", true);
-    document.getElementById("userAnswer").focus();
-    var downloadTimer = setInterval(function(){
-    if(timeleft <= 0){
-        clearInterval(downloadTimer);
-        timeleft = 10;
-        document.getElementById("countdown").innerHTML = timeleft + " seconds left";
-        $('#userAnswer').val('');
-        $('#userAnswer').prop("disabled", true);
-        $('button').prop("disabled", false);
-        $('.form-check-input').prop("disabled", false);
-        if(currentScore > globalHighScore){
-            addScore(currentScore);
-            $('small').html('Nice Job!');
-            alert("Congratluations on getting the new high score!"); 
-            $('#tanuki').attr("src", "./pics/chouureshii.png");
-            $('#goodluck').attr("src", "./pics/nice.png");
-        }
-        else if(currentScore > 10){
-            $('small').html('Nice Job!');
-            addScore(currentScore);
-            alert("You made it to the leaderboard!");
-            $('#tanuki').attr("src", "./pics/chouureshii.png");
-            $('#goodluck').attr("src", "./pics/nice.png");
-        }
-        else if(currentScore < highScore){
-            $('#tanuki').attr("src", "./pics/akiramenaide.png");
-            $('#goodluck').attr("src", "./pics/goodluck.png");
-        }
-        else if(currentScore > 1) {
-            $('#tanuki').attr("src", "./pics/yatta.png");
-            $('#goodluck').attr("src", "./pics/keepgoing.png");
-        }
-        $('img').fadeIn("slow");
-    } else {
-        document.getElementById("countdown").innerHTML = timeleft + " seconds left";
-    }
-    timeleft -= 1;
-    }, 1000);
-    currentScore = 0;
-    $('#score').html('Score: ' + currentScore);
-    timeleft = 10;
-    $('#countdown').html(timeleft + ' seconds left');
-}
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import fetchData from '../../api/query/fetch';
+
+const Directory = () => {
+  const [buildings, setBuildings] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchBuildings = async () => {
+      try {
+        const buildingsData = await fetchData('getBuildings');
+        setBuildings(buildingsData);
+      } catch (error) {
+        // Handle error if needed
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBuildings();
+  }, []); // Empty dependency array ensures the effect runs once after the initial render
+
+  return (
+    <Container className="py-3" id="directory-page">
+      <Row className="justify-content-center">
+        <Col md={7}>
+          <Col className="text-center">
+            <h2>Buildings</h2>
+          </Col>
+          {loading ? (
+            <div>Loading...</div> // Or any other loading indicator
+          ) : (
+            <ListGroup>
+              {buildings.map((building) => (
+                <Link to={`/gender/${building._id}/${encodeURIComponent(building.name)}`} key={building._id}>
+                  <ListGroupItem>{building.name}</ListGroupItem>
+                </Link>
+              ))}
+            </ListGroup>
+          )}
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default Directory;
+
 ```
