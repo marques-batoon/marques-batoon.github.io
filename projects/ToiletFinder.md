@@ -18,7 +18,7 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
 
 <div class="text-center p-4">
   <!-- <img width="120px" src="../img/math-marques.png" class="img-thumbnail" > -->
-  <img width="800px" class="img-thumbnail" src="../img/logo.png">
+  <img width="200px" class="img-thumbnail" src="../img/logo.png">
 </div>
 
 This is the first dynamic website web application I created using JavaScript making dynamic HTML and CSS.
