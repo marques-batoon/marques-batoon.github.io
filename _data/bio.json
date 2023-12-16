@@ -1,0 +1,142 @@
+{
+  "basics": {
+    "name": "Marques Batoon",
+    "label": "Student",
+    "picture": "https://github.com/marquesadilla.png",
+    "email": "marquesb@hawaii.edu",
+    "phone": "808-341-7458",
+    "website": "https://marques-batoon.github.io/",
+    "summary": "はじめまして！I'm an undergraduate double majoring in Computer Science and Japanese. I am simultaneously studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and a B.A. in Japanese in the department of East Asian Languages & Literatures at the University of Hawaii. I expect to graduate with both majors in May, 2025.",
+    "location": { "address": "", "postalCode": "96815", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "marques-batoon", "url": "http://github.com/marques-batoon" },
+      { "network": "linkedin", "username": "marques-batoon", "url": "https://www.linkedin.com/in/marques-batoon-a9445128a/" },
+      { "network": "twitter", "username": "Batoonworld", "url": "https://twitter.com/Batoonworld" },
+      { "network": "instagram", "username": "batoonworld", "url": "https://www.instagram.com/batoonworld/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Web Development" },
+    { "name": "Mathematics" },
+    { "name": "Japanese Language" },
+    { "name": "Travel" },
+    { "name": "Hiking" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "ReactJS", "PHP", "Ruby", "Ruby on Rails" ]
+    },
+    {
+      "name": "Japanese Language",
+      "keywords": [ "Japanese speaking", "Japanese writing", "JLPT N2", "Japanese reading", "Business Japanese" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025) <br/>B.A., Japanese (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "The Breakers Hotel",
+      "position": "IT Specialist and Web Developer",
+      "website": "https://www.breakers-hawaii.com/",
+      "startDate": "2019-08-01",
+      "endDate": "Present",
+      "summary": "Head of IT at The Breakers Hotel. Located in Waikiki, The Breakers Hotel is owned by Urasenke International. Yearly Urasenke Hawaii Seminars are hosted where participants fly from Japan to Hawaii together in celebration of Chado.",
+      "highlights": [
+        "Updated website to be mobile responsive",
+        "Translate incoming and outgoing email correspondence from Japanese guests",
+        "Manage Hotel Reservations System"
+      ]
+    },
+    {
+      "company": "International Structural Engineering and Construction",
+      "position": "IT Specialist and Web Developer (Independent Contractor)",
+      "website": "https://isec-society.org/index.php",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Handled website's Front-end and Back-end edits. ISEC Society is a non-profit organization dedicated to benefitting the professional engineering community through international educational conferences, seminars, and literature. ",
+      "highlights": [
+        "Website's Front-end and Back-end edits in PHP and SQL.",
+        "Answered IT related questions and fixed any issues related to website's user database. "
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Japanese Culture Club at UH Manoa",
+      "website": "https://uhmjcc.weebly.com/",
+      "position": "Vice President",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "summary": "As acting Vice President I plan and host club events as well as hold meetings with other club members to discuss social media presence, activities outside of school, and promoting Japanese culture",
+      "highlights": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "VLDB Scholarship",
+      "date": "2023",
+      "awarder": "Very Large Data Base Endowment Inc.",
+      "summary": "The VLDB Endowment is a non-profit organization incorporated in the United States for the sole purpose of promoting and exchanging scholarly work in databases and related fields throughout the world. Selection is merit-based and up to three awards (one per campus) will be made each academic year. Awarded $2500."
+    },
+    {
+      "title": "N3 Japanese Level Certificate",
+      "date": "2023",
+      "awarder": "Japanese Language Proficiency Test",
+      "summary": "The Japanese-Language Proficiency Test, or JLPT, is a standardized criterion-referenced test to evaluate and certify Japanese language proficiency for non-native speakers, covering language knowledge, reading ability, and listening ability."
+    },
+    {
+      "title": "JavaScript Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learned the prototypical structure of JavaScript and the relationships between its objects and how to build objects with Constructors and the 'this' variable. Completed over one hundred JavaScript scripting exercises and built two text-based game projects to finish the course."
+    },
+    {
+      "title": "Dynamic Website Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learned to dynamically retrieve data from external APIs using Ajax. Built interactive web apps with persistent data stored on server."
+    },
+    {
+      "title": "ReactJS Development Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learned how to add React capability to existing projects. Learned to write React JSX and how to preprocess React JSX locally with NodeJS. Learned to compose React custom components and build reusable templates and how to create a React single page app using Create React App. Also learned how to run a NodeJS server locally, install and use third party JavaScript NPM library in React projects and deploy React projects live."
+    },
+    {
+      "title": "Ruby Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learned to write reusable programs with native methods that come bundled with Ruby to write less code and achieve the same outcome. Understand Object Oriented Programming and learned how to use Classes, Instances, inheritance and attributes to write advanced Ruby programs."
+    },
+    {
+      "title": "Ruby on Rails Programming Certificate",
+      "date": "2021",
+      "awarder": "Altcademy",
+      "summary": "Learned the crucial Model View Controller (MVC) structure that is being used in most applications. Created a simple restful API with multiple routes. Created new Models with migrations, add validations to Models, and interacted with the database using Active Record. Added more functionality to the application with third party libraries such as mailer and photo upload."
+    },
+    {
+      "title": "HTML CSS Development",
+      "date": "2020",
+      "awarder": "Altcademy",
+      "summary": "Learned to build responsive websites that scales from mobile to desktop using Bootstrap 4 and 5's flex-box grid system and media queries."
+    }
+    
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pokémon Encyclopedia | Marques Batoon | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/marquesadilla.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Marques Batoon | Professional Portfolio">
+    <meta property="og:url" content="https://marques-batoon.github.io/projects/pokedex.html">
+    <meta property="og:title" content="Pokémon Encyclopedia | Marques Batoon | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/marquesadilla.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pokémon Encyclopedia | Marques Batoon | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Marques Batoon</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Pokémon Encyclopedia</h1>
+ <p>This is a simple web app that uses RESTful API for Pokémon data. Also uses open source JavaScript library chartJS. With the accumulated JavaScript and reactJS knowledge I’ve built up I wanted to make a personal project related to my past favorite video game, Pokémon. I found a <a href="https://pokeapi.co/">modern RESTful API</a> that contains extensive Pokémon data.</p>
+
+<p>My favorite thing about this app is that it updates on its own as the RESTful API updates without me needing to touch the original base code. So, when a new region is updated in the Pokémon games this application updates as well, as long as the API is updated as well (The most recent RESTful API data may not be as accurate since it isn’t officially pulled from Nintendo).</p>
+
+<p>I also used an open source chartJS to help display the stats of each Pokémon. I tried to challenge myself and gave myself a time limit to see how far I could get creating this in one night.</p>
+
+<p>See the web application here: <a href="https://marques-pokedex.netlify.app/">Link</a></p>
+
+<div class="text-center p-4">
+  <!-- <img width="200px" src="../img/math-marques.png" class="img-thumbnail" > -->
+  <img width="250px" src="../img/Poke3.png" />
+  <img width="250px" src="../img/Poke1.png" />
+  <img width="250px" src="../img/Poke5png.png" />
+</div>
+
+<p>Below is the fetch request code that stores information from the API to be used with the open source chartJS</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">getMon</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">fetch</span><span class="p">(</span><span class="s2">`https://pokeapi.co/api/v2/pokemon/</span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">checkStatus</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">error</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="c1">// artwork</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span> <span class="na">imgLink</span><span class="p">:</span> <span class="nx">data</span><span class="p">.</span><span class="nx">sprites</span><span class="p">.</span><span class="nx">other</span><span class="p">[</span><span class="dl">"</span><span class="s2">official-artwork</span><span class="dl">"</span><span class="p">][</span><span class="dl">"</span><span class="s2">front_default</span><span class="dl">"</span><span class="p">]</span> <span class="p">});</span>
+
+            <span class="c1">// stats for chart</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">buildChart</span><span class="p">([</span><span class="dl">"</span><span class="s2">HP</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">ATK</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">DEF</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">SpATK</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">SpDEF</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">SPD</span><span class="dl">"</span><span class="p">],</span> <span class="p">[</span><span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">2</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">3</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">4</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">stats</span><span class="p">[</span><span class="mi">5</span><span class="p">].</span><span class="nx">base_stat</span><span class="p">],</span> <span class="dl">"</span><span class="s2">Base Stats</span><span class="dl">"</span><span class="p">);</span>
+
+            <span class="c1">// pokeNum</span>
+            <span class="kd">const</span> <span class="nx">mon0</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">species</span><span class="p">.</span><span class="nx">url</span><span class="p">;</span>
+            <span class="kd">const</span> <span class="nx">pokeNum</span> <span class="o">=</span> <span class="nx">mon0</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="nx">mon0</span><span class="p">.</span><span class="nx">lastIndexOf</span><span class="p">(</span><span class="dl">"</span><span class="s2">species</span><span class="dl">"</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span><span class="p">,</span> <span class="nx">mon0</span><span class="p">.</span><span class="nx">lastIndexOf</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">));</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span> <span class="nx">pokeNum</span> <span class="p">});</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">toNext</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">pokeNum</span><span class="p">));</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">toPrev</span><span class="p">(</span><span class="nb">parseInt</span><span class="p">(</span><span class="nx">pokeNum</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+
+        <span class="p">})</span>
+        <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">));</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://marques-batoon.github.io/">Home</a></small>
+        <small class="nav-link"> ︱ </small>
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
