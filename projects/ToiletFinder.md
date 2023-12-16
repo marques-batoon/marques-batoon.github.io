@@ -21,7 +21,7 @@ summary: "Final project for ICS 314. Full Stack application for UH Manoa student
   <img width="200px" class="img-thumbnail" src="../img/logo.png">
 </div>
 
-This is the first dynamic website web application I created using JavaScript making dynamic HTML and CSS.
+For our final project for ICS 314. Full Stack application for UH Manoa students to find and rate bathrooms on UH campus.
 
 It's a Web Application game made with JavaScript where the user needs to input the correct answer to a basic arithmetic equation. However, there is a time limit of 10 seconds for which the user can input the correct answer and progress to the next question. High scores are recorded and displayed using RESTful API.
 
@@ -29,7 +29,7 @@ My goal of this web application was to practice and solidify everything I've jus
 
 Before this project I had learned how to write to and read from restFUL API by making a to-do-list. Learning from this I wanted to implement that into this web application and did so by implementing a high score section that saves for users that score over 10 points. Each arithmetic option holds its own list of high scores. Using JavaScript methods I also implemented different images with varying messagees depending on what score the user had just completed.
 
-Try the app here: [Good luck. Hope to see you on the leaderboards!](https://arithmetic-marques-batoon.netlify.app/)
+See the documentation [here](https://arithmetic-marques-batoon.netlify.app/).
 
 Below is a sample of the countdown function used in the app and the live updates made to the HTML.
 
