@@ -15,7 +15,7 @@ My first experience with JavaScript was through a Full-Stack Web Development cou
 
 ## JavaScript Origins
 
-In the coding bootcamp we cover full-stack development with HTML, CSS, JavaScript, React, Ruby and Rails, Computer Science fundamentals, and programming skills. In the bootcamp I learned that JavaScript’s name was chosen as a way to ride on the success of Java at the time. I found it extremely hilarious that JavaScript has absolutely nothing to do with the Java programming language. 
+In the coding bootcamp we cover full-stack development with HTML, CSS, JavaScript, React, Ruby and Rails, Computer Science fundamentals, and programming skills. In the bootcamp I learned that JavaScript’s name was chosen as a way to ride on the success of Java at the time. I found it extremely hilarious that JavaScript has absolutely nothing to do with the Java programming language. On a side note, I find it important to learn about programming history as well as programming to expand knowledge on the subject and understand how technology and software development continues to change from humble origins.
 
 As a child I learned very basic HTML and heavily enjoyed making and editing simple web pages. So, as a young avid HTML fan, learning JavaScript which was made as a ‘glue’ to HTML so web designers could easily assemble components such as images and plugins. Being able to use JavaScript to make HTML and CSS pages dynamic was very attractive to me.
 
