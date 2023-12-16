@@ -29,7 +29,7 @@ My goal of this web application was to practice and solidify everything I've jus
 
 Before this project I had learned how to write to and read from restFUL API by making a to-do-list. Learning from this I wanted to implement that into this web application and did so by implementing a high score section that saves for users that score over 10 points. Each arithmetic option holds its own list of high scores. Using JavaScript methods I also implemented different images with varying messagees depending on what score the user had just completed.
 
-See the documentation [here]([https://arithmetic-marques-batoon.netlify.app/](https://toilet-titans.github.io/)).
+See the documentation [here]([https://toilet-titans.github.io/]).
 
 Below is a sample of the countdown function used in the app and the live updates made to the HTML.
 
