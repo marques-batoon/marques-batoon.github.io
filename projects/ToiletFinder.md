@@ -31,7 +31,7 @@ I learned of the importance in pulling your weight in group projects as well as 
 
 See the documentation [here]([https://toilet-titans.github.io/]).
 
-Below is a sample of the countdown function used in the app and the live updates made to the HTML.
+Below is a sample of the first react components coded to pull data from the database.
 
 ```js
 import React, { useState, useEffect } from 'react';
